@@ -1,0 +1,51 @@
+/* styles.css for Solutions page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8ed;
+    color: #100e05;
+}
+
+header {
+    background-color: #0a5177;
+    text-decoration: underline;
+    color: #d2a70b;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: width 2s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d2a70b;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #94224d;
+    transition: width 2s;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0a5177;
+    color: #e7ee29;
+    text-align: center;
+    padding: 10px 0;
+}
